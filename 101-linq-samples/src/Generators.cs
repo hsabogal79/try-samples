@@ -23,7 +23,7 @@ namespace Try101LinqSamples
         {
             #region generate-repeat
             var numbers = Enumerable.Repeat(7, 10);
-
+            Console.WriteLine($"Cambio para probar Github");
             foreach (var n in numbers)
             {
                 Console.WriteLine(n);
